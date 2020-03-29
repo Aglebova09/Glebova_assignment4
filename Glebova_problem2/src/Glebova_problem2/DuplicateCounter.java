@@ -17,7 +17,7 @@ public class DuplicateCounter
 
 			while (input.hasNext())
 			{
-				String next = input.next();
+				String next = input.next().toLowerCase();
 				
 				if(wordCounter.containsKey(next)) //checks if the map already has the word if not creates one
 				{

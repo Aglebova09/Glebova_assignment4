@@ -17,7 +17,7 @@ public class DuplicateRemover
 			
 			while (input.hasNext()) //checks if there are more words in the file
 			{
-				String next = input.next();
+				String next = input.next().toLowerCase();
 				uniqueWords.add(next); //adds to the set
 			}
 			
